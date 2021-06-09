@@ -51,7 +51,7 @@
 			$risp ="Benvenuto dulla pagina del Bot del IIS8Marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $risp);
 		}
-/*
+
 		if($text == "data"){
 			$risp = "La data odierna è: ".date("d.m.y");
 			$parameters = array('chatID' => $chat_Id, "text" => $risp);
@@ -64,6 +64,7 @@
 		
 			sendFoto($chatId, $foto[$i], false, "descrizione Foto", $api)
 		}
+/*
 
 		if($text == "barze"){
     			//Salvo all'interno del vettore $barze 2 bazelette in posizioni differenti
