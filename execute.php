@@ -52,7 +52,7 @@
 			$parameters = array('chat_id' => $chatId, "text" => $risp);
 		}
 		if($text == "data"){
-			$risp = "La data odierna è: ".date("d.m.y")";
+			$risp = "La data odierna è: ".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $risp);
 		}
 		if($text == "foto"){
@@ -73,7 +73,7 @@
     			//genero un numero random tra 0 e 2 e lo salvo nella variabile $i 
       			$i=rand(0,3);
 			
-			$parameters = array('chat_id' => $chatId, "text" => $barze[£i];)
+			$parameters = array('chat_id' => $chatId, "text" => $barze[$i];)
     		}
 
 		
