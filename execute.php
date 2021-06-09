@@ -80,8 +80,8 @@
 		
 		//aggiungo il comando di invio
 		//e lo invio
-		
-		
+		$parameters["method"] = "sendMessage";
+        echo json_encode($parameters);
 		
 		
 		
