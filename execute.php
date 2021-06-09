@@ -53,7 +53,9 @@
 		}
 
 		if($text == "data"){
+			
 			$risp = "La data odierna è: ".date("d.m.y");
+			$risp = "Ciao";
 			$parameters = array('chatID' => $chat_Id, "text" => $risp);
 		}
 
