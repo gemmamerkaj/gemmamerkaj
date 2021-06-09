@@ -68,7 +68,7 @@
     			//Salvo all'interno del vettore $barze 2 bazelette in posizioni differenti
     			$barze[0]="Che cos'è una zebra? Un cavallo evaso dal cxarcere!";
       			$barze[1]="Qual'è il colmo per un truffatore?Fare un buco nell'acqua!";
-      			$barze[2]="Chi la fa la vende, chi la compra non la USA, chi la usa non la vende, cosa è??? La tomba."
+      			$barze[2]="Chi la fa la vende, chi la compra non la USA, chi la usa non la vende, cosa è??? La tomba.";
                		$barze[3]="Qual'è il colmo per un giardiniere?Piantare la fidandata!";
     			//genero un numero random tra 0 e 2 e lo salvo nella variabile $i 
       			$i=rand(0,3);
