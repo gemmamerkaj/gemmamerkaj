@@ -51,6 +51,7 @@
 			$risp ="Benvenuto dulla pagina del Bot del IIS8Marzo";
 			$parameters = array('chat_id' => $chatId, "text" => $risp);
 		}
+/*
 		if($text == "data"){
 			$risp = "La data odierna è: ".date("d.m.y");
 			$parameters = array('chatID' => $chat_Id, "text" => $risp);
@@ -76,7 +77,7 @@
 			$parameters = array('chat_id' => $chatId, "text" => $barze[$i];)
     		}
 
-		
+		*/
 		
 		//aggiungo il comando di invio
 		//e lo invio
