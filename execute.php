@@ -53,7 +53,7 @@
 		}
 		if($text == "data"){
 			$risp = "La data odierna è: ".date("d.m.y");
-			$parameters = array('chatID' => $chatId, "text" => $risp);
+			$parameters = array('chatID' => $chat_Id, "text" => $risp);
 		}
 		if($text == "foto"){
 			$foto[0] = "foto.jpg";
