@@ -72,6 +72,8 @@
                		$barze[3]="Qual'è il colmo per un giardiniere?Piantare la fidandata!";
     			//genero un numero random tra 0 e 2 e lo salvo nella variabile $i 
       			$i=rand(0,3);
+			
+			$parameters = array('chat_id' => $chatId, "text" => $barze[£i];)
     		}
 
 		
@@ -79,8 +81,7 @@
 		//aggiungo il comando di invio
 		//e lo invio
 		
-		$parameters["method"] = "sendMessage";
-        echo json_encode($parameters);
+		
 		
 		
 		
