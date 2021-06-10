@@ -49,7 +49,7 @@
 		$parameters = array('chat_id' => $chatId, "text" => $text);
 		if($text == "ciao"){
 			$risp ="Benvenuto dulla pagina del Bot del IIS8Marzo";
-			$parameters = array('chat_Id' => $chatId, "text" => $risp);
+			$parameters = array('chat_id' => $chatId, "text" => $risp);
 		}
 
 		if($text == "data"){
