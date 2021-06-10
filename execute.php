@@ -59,7 +59,7 @@
 		}
 
 
-/*
+
 		if($text == "foto"){
 			$foto[0] = "foto.jpg";
 			$foto[1] = "foto1.jpg";
@@ -80,7 +80,7 @@
 			$parameters = array('chat_id' => $chatId, "text" => $barze[$i];)
     		}
 
-		*/
+		
 		
 		//aggiungo il comando di invio
 		//e lo invio
