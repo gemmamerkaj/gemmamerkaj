@@ -56,7 +56,7 @@
 			
 			$risp = "La data odierna è: ".date("d.m.y");
 			$risp = "Ciao";
-			$parameters = array('chat_id' => $chat_Id, "text" => $risp);
+			$parameters = array('chat_id' => $chat_id, "text" => $risp);
 		}
 
 /*
