@@ -59,7 +59,7 @@
 		}
 
 
-
+/*
 		if($text == "foto"){
 			$foto[0] = "foto.jpg";
 			$foto[1] = "foto1.jpg";
@@ -68,7 +68,6 @@
 		
 			sendFoto($chatId, $foto[$i], false, "descrizione Foto", $api)
 		}
-/*
 		if($text == "barze"){
     			//Salvo all'interno del vettore $barze 2 bazelette in posizioni differenti
     			$barze[0]="Che cos'è una zebra? Un cavallo evaso dal cxarcere!";
