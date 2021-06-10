@@ -53,32 +53,31 @@
 		}
 
 		if($text == "data"){
-			
-			$risp = "La data odierna è: ".date("d.m.y");
-			$parameters = array('chat_id' => $chat_Id, "text" => $risp);
-		}
-
-
-
-		if($text == "foto"){
-			$foto[0] = "foto.jpg";
-			$foto[1] = "foto1.jpg";
-		
-			$i= rand(0,1);
-		
-			sendFoto($chatId, $foto[$i], false, "descrizione Foto", $api)
-		}
-		if($text == "barze"){
-    			//Salvo all'interno del vettore $barze 4 bazelette in posizioni differenti
-    			$barze[0]="Che cos'è una zebra? Un cavallo evaso dal cxarcere!";
-      			$barze[1]="Qual'è il colmo per un truffatore?Fare un buco nell'acqua!";
-      			$barze[2]="Chi la fa la vende, chi la compra non la USA, chi la usa non la vende, cosa è??? La tomba.";
-               		$barze[3]="Qual'è il colmo per un giardiniere?Piantare la fidandata!";
-    			//genero un numero random tra 0 e 3 e lo salvo nella variabile $i 
-      			$i=rand(0,3);
-			
-			$parameters = array('chat_id' => $chatId, "text" => $barze[$i];)
-    		}
+  			$risp = "la data odierna è:".date("d.m.y");
+   			$parameters = array('chat_id' => $chatId, "text" => $risp);
+  		}
+ 		if($text == "ciao"){
+   			$text="Benvenuto sul nostro BOT di telegram dell\'IIS8MARZO";
+   			$parameters = array('chat_id' => $chatId, "text" => $text);
+  		}
+  		if($text == "foto"){
+   		//Salvo all'interno del vettore $foto 3 foto in posizioni differenti
+     		$foto[0] = "foto.jpg";
+     		$foto[1] = "foto1.jpg";
+           	//genero un numero random tra 0 e 3 e lo salvo nella variabile $fotojpg
+    		$i = rand(0,1);    
+    		sendFoto($chatId, $foto[$i],false,"descrizione foto", $api);
+   		}
+               if($text=="barze"){
+    		//Salvo all'interno del vettore $barze 2 bazelette in posizioni differenti
+    			$barze[0] = "Che cos è una zebra? Un cavallo evaso dal carcere!";
+     			$barze[1] = "Qual è il colmo per un truffatore?Fare un buco nell acqua.";
+     			$barze[2] = "Chi la fa la vende, chi la compra non la usa, chi la usa non la vede, cos è???? La tomba.";
+            		$barze[3] = "Qual è il colmo per un giardiniere? Piantare la fidandata."; 
+    		//genero un numero random tra 0 e 2 e lo salvo nella variabile $i 
+     		$i = rand(0,3); 
+     		$parameters = array('chat_id' => $chatId, "text" => $barze[$i]);
+   	 	}
 
 		
 		
