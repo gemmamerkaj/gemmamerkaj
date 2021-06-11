@@ -83,11 +83,11 @@
 		
 		if($text == "audio"){
 		
-			sendAudio($chatId, "audio.mp3", false,"file audio", $api);
+			sendAudio($chatId, "./audio/jingle.mp3", false,"file audio", $api);
 		}
 		
 		if($text == "pdf"){
-			sendDocument($chatId, "testo.pdf",false, "un testo in pdf", $api);
+			sendDocument($chatId, "./files/testo.pdf",false, "un testo in pdf", $api);
 		}
 		//aggiungo il comando di invio
 		//e lo invio
